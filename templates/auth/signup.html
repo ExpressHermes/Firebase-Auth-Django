@@ -4,9 +4,14 @@
     <form class="form-signin" method="POST">
         {% csrf_token %}
         <h1 class="h3 mb-3 font-weight-normal">Please sign up</h1>
+
         <input type="text" name="name" id="inputName" class="form-control" placeholder="Full Name" required autofocus>
         <input type="email" name="email" id="inputEmail" class="form-control" placeholder="Email address" required>
         <input type="password" name="password" id="inputPassword" class="form-control" placeholder="Password" required>
+        <div class="mb-2">
+            <div id="emailHelp" class="pl-2 form-text text-left text-muted">Email should be unique.</div>
+            <div id="passwordHelp" class="pl-2 form-text text-left text-muted">Password should be minimum 6 characters long.</div>
+        </div>
         <button class="btn btn-lg btn-primary btn-block" type="submit">Sign up</button>
         <hr />
         <p class="mt-1 mb-3 text-muted">Already member?
