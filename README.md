@@ -1,6 +1,5 @@
 # Django Auth with Firebase
 ![](https://img.shields.io/badge/django-3.1.3-blue?style=flat-square&logo=django)
-[![](https://img.shields.io/badge/website-heroku-blueviolet?style=flat-square&logo=heroku)](https://twf-flours-task.herokuapp.com/)
 
 
 A django web app with firebase authentication for users
